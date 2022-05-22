@@ -1,6 +1,6 @@
 resource "azurem_resource_group" "Pawel"{
 	name = var.azurem_resource_group-name
-	location = var.location
+	location = var.azurem_resource_group_location
 }
 
 
